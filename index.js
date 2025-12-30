@@ -46,7 +46,7 @@ const wsHub = (() => {
 /* -----------------------------------------
    CORS + Cookies
 ----------------------------------------- */
-const FRONTEND_ORIGIN = process.env.CORS_ORIGIN || "http://localhost:9002";
+const FRONTEND_ORIGIN = process.env.CORS_ORIGIN || "https://p2frontend.vercel.app";
 
 fastify.register(fastifyCookie, {
   secret: process.env.COOKIE_SECRET || "super-secret-key",
