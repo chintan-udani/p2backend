@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chintan",
+  "license": "ISC",
+  "description": "Lockchat backend",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/websocket": "^11.2.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.21.0",
+    "pm2": "^6.0.14"
+  },
+  "devDependencies": {
+    "fastify-tsconfig": "^3.0.0"
+  }
+}
